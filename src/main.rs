@@ -20,3 +20,8 @@ mod tests {
         assert!(greet("world").starts_with("Hello, world"));
     }
 }
+
+#[test]
+fn farewells() {
+    assert!(farewell("world").starts_with("Goodbye, world"));
+}
