@@ -1,9 +1,9 @@
 fn greet(name: &str) -> String {
-    "Hello, ".to_string() + name
+    format!("Hello, {name}!")
 }
 
 fn farewell(name: &str) -> String {
-    "Goodbye, ".to_string() + name
+    format!("Goodbye, {name}.")
 }
 
 fn main() {
